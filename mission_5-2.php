@@ -123,26 +123,26 @@
 
 		<form action="<?php print($_SERVER['PHP_SELF']) ?>" method="post">
 			<input type="hidden" name="num3"
-							value="<?php
-										if(isset($_POST['submit3']) && !empty($get_num)){
-											print $get_num;
-										}
-										?>"
+				value="<?php
+					if(isset($_POST['submit3']) && !empty($get_num)){
+					print $get_num;
+					}
+					?>"
 							>
 			<br>
 			名前：<br />
 			<input type="text" name="name"
-						value="<?php
-									if(isset($_POST['submit3']) && !empty($get_name)){
-										print $get_name;
-                     				}
-                     				?>"
+				value="<?php
+					if(isset($_POST['submit3']) && !empty($get_name)){
+					print $get_name;
+                     			}
+                     			?>"
             			placeholder="名前"><br>
             コメント：<br />
 			<input type="text" name="comment"
-							value="<?php
-										if(isset($_POST['submit3']) && !empty($get_comment)){
-                                                print $get_comment;
+				value="<?php
+					if(isset($_POST['submit3']) && !empty($get_comment)){
+                                        print $get_comment;
                                     	}
                                      	?>"
 							placeholder="コメント"><br>
