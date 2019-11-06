@@ -16,7 +16,7 @@
 			."id INT AUTO_INCREMENT PRIMARY KEY,"
 			."name char(32),"
 			."comment TEXT,"
-			."date TEXT,"
+			."date TEXT
 			."pass TEXT"
 			.");";
 			$stmt=$pdo->query($sql);
